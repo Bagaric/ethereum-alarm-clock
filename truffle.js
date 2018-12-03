@@ -38,9 +38,9 @@ module.exports = {
       provider: () => new HDWalletProvider(mnemonic, "https://ropsten.infura.io"),
       network_id: "3"
     },
-    rsk: {
+    rsk_testnet: {
       provider: () => new HDWalletProvider(mnemonic, "http://127.0.0.1:4444"),
-      network_id: '*',
+      network_id: '779',
       gas: 2500000,
       gasPrice: 183000
     }
