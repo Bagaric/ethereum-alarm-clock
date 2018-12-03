@@ -40,7 +40,7 @@ module.exports = {
     },
     rsk_testnet: {
       provider: () => new HDWalletProvider(mnemonic, "http://127.0.0.1:4444"),
-      network_id: '779',
+      network_id: '31',
       gas: 2500000,
       gasPrice: 183000
     }
